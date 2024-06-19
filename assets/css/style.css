@@ -1,0 +1,11 @@
+/* General Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
+
+/* Header */
+header {
+    color: #f54242;
+}
