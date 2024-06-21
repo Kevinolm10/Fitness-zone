@@ -18,7 +18,8 @@ body {
 
 /* Header */
 header {
-    color: #f54242;
+    color: #3a3a3a;
+    background-color: rgb(225, 134, 15);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -26,6 +27,7 @@ header {
     letter-spacing: 3px;
     flex-direction: row;
     box-shadow: 0 2px 2px #3a3a3a;
+    z-index: 99;
 }
 
 header a {
@@ -56,15 +58,16 @@ nav li {
 
 
 main {
-    background-color: #ffff;
+    background-color: #fff;
     flex: 1 0 auto;
     width: 100%;
 }
 
 /* Footer */
 footer {
-    background-color: rgba(255, 0, 0, 0.493);
+    background-color: rgb(225, 134, 15);
     width: 100%;
+    text-decoration: none;
 }
 
 /* Styling for social media links */
@@ -74,12 +77,16 @@ footer {
     padding: 0 20px;
     justify-content: space-evenly;
     list-style-type: none;
+    text-decoration: none;
+
 }
 
 /* Styling to make link icons bigger */
 #social-media-links li {
     font-size: 160%;
     padding: 2%;
+    text-decoration: none;
+    color: #3a3a3a;
 }
 
 /* Media query: large or landscape phones (576px and up) */
