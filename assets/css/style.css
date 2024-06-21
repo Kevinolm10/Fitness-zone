@@ -61,9 +61,25 @@ main {
     width: 100%;
 }
 
+/* Footer */
 footer {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.493);
     width: 100%;
+}
+
+/* Styling for social media links */
+#social-media-links {
+    text-align: center;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+/* Styling to make link icons bigger */
+#social-media-links li {
+    font-size: 160%;
+    padding: 2%;
 }
 
 /* Media query: large or landscape phones (576px and up) */
