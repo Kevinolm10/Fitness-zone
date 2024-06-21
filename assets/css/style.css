@@ -25,6 +25,7 @@ header {
     align-items: baseline;
     letter-spacing: 3px;
     flex-direction: row;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 header a {
@@ -62,3 +63,18 @@ footer {
     background-color: red;
     width: 100%;
 }
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {}
+
+
+
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+
+
+@media screen and (min-width: 1200px) {}
