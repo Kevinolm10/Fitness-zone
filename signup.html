@@ -13,7 +13,7 @@
     <!--Title-->
     <title>Fitness Zone</title>
     <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/assets/css/style.css">
 </head>
 
 <body>
@@ -35,36 +35,33 @@
     <!--Main Content-->
     <main>
         <!--Form-->
-        <form action="response.html" method="GET">
-            <h2>Join us to level up your fitness!</h2>
-            <label for="firstname">First Name:</label>
-            <input type="text" id="firstname" placeholder="Enter your First Name">
-            <br>
-            <label for="lastname">Last Name:</label>
-            <input type="text" id="lastname" placeholder="Enter your Last Name">
-            <br>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" placeholder="Enter your email address">
-            <br>
-            <div>
-                Fitness Level:
+        <section id="join-us">
+            <form id="join-form" action="response.html" method="GET">
+                <h2>Join us to level up your fitness!</h2>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" placeholder="Enter your First Name" class="text">
                 <br>
-                <label for="beginner">Beginner</label>
-                <input type="radio" id="beginner" value="Beginner" name="level" required>
-            </div>
-            <div>
-                <label for="intermediate">Intermediate</label>
-                <input type="radio" id="intermediate" value="Intermediate" name="level" required>
-            </div>
-            <div>
-                <label for="advanced">Advanced</label>
-                <input type="radio" id="advanced" value="advanced" name="level" required>
-            </div>
-
-            <label for="submit">
-                <input type="submit" id="submit" value="Lets get you going!">
-            </label>
-        </form>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" placeholder="Enter your Last Name" class="text">
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="Enter your email address" class="text">
+                <br>
+                <div class="radiobuttons">
+                    Fitness Level:
+                    <br>
+                    <label for="beginner">Beginner</label>
+                    <input type="radio" id="beginner" value="Beginner" name="beginner" required>
+                    <label for="intermediate">Intermediate</label>
+                    <input type="radio" id="intermediate" value="Intermediate" name="intermediate" required>
+                    <label for="advanced">Advanced</label>
+                    <input type="radio" id="advanced" value="advanced" name="advanced" required>
+                </div>
+                <label for="submit">
+                    <input type="submit" id="submit" value="Lets get you going!">
+                </label>
+            </form>
+        </section>
     </main>
 
     <!--Footer-->
