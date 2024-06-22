@@ -74,6 +74,14 @@ main h2 {
     margin-bottom: 30px;
 }
 
+.description {
+    margin-top: 20px;
+}
+
+.about {
+    text-align: center;
+}
+
 /* Style for the sign up form */
 form {
     display: flex;
@@ -83,7 +91,6 @@ form {
     margin-top: 20vh;
 }
 
-/* background image styling for sign up page */
 #join-us {
     background-image: url("../images/signup-image.webp") no-repeat center center;
     background-size: 100%;
@@ -97,7 +104,7 @@ form {
 
 .text {
     background: transparent;
-    color: #fafafa;
+    color: #3a3a3a;
     width: 100%;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
@@ -105,7 +112,7 @@ form {
     padding: 0 5px;
 }
 
-/* Radio Buttons */
+/* Radio Buttons - sign up form */
 .radiobuttons {
     width: 100%;
     justify-content: space-between;
