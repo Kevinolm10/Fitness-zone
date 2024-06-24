@@ -65,8 +65,11 @@ nav li {
 
 /* Main */
 main {
-    flex: 1 0 auto;
     width: 100%;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
 main h2 {
@@ -74,9 +77,33 @@ main h2 {
     margin-bottom: 30px;
 }
 
-.description {
-    margin-top: 20px;
+/* Styling for all P elements */
+.orange {
+    background-color: rgb(225, 134, 5, 0.7);
+    padding: 20px;
+    margin-top: 50px;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
+
+.circle1 {
+    background-color: rgb(225, 134, 5, 0.7);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10vh;
+}
+
+.circle2 {
+    background-color: rgb(225, 134, 5, 0.7);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 5vh;
+}
+
 
 .home-background {
     background-image: url("../images/pngtree-an-empty-gym-with-some-machines-picture-image_3105884.jpg");
@@ -85,23 +112,13 @@ main h2 {
     background-repeat: no-repeat;
 }
 
-.about {
-    text-align: center;
-    width: 100%;
-    color: #000000;
-    border: 1px solid #000000;
-    background-color: rgb(225, 134, 5, 0.7);
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 50px;
-}
 
 /* Styling for coach image on home page */
 .coach {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15vh;
+    margin-top: 0;
     width: 50%;
     border-radius: 50%;
     border: 1px solid #000000;
