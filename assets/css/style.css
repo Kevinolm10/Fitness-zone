@@ -82,30 +82,26 @@ main h2 {
 }
 
 /* Styling for all P elements */
-.orange {
-    background-color: rgb(225, 134, 5, 0.7);
-    padding: 20px;
+section {
+    background-color: rgb(225, 134, 15, 0.7);
+    padding: 0;
     margin-top: 50px;
     margin-right: 1rem;
     margin-left: 1rem;
 }
 
 .circle1 {
-    background-color: rgb(225, 134, 5, 0.7);
-    border: 1px solid #000000;
-    border-radius: 5px;
     text-align: center;
-    padding-top: 5px;
-    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .circle2 {
-    background-color: rgb(225, 134, 5, 0.7);
-    border: 1px solid #000000;
-    border-radius: 5px;
     text-align: center;
-    padding-bottom: 5px;
-    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -119,14 +115,13 @@ main h2 {
 
 /* Styling for coach image on home page */
 .coach {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    width: 50%;
-    border-radius: 50%;
-    border: 1px solid #000000;
-
+    padding: 2em 0;
+    max-width: 500px;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Style for the sign up form */
@@ -148,7 +143,6 @@ form {
 
 #join-form {
     color: #000000;
-    background-color: rgb(225, 134, 5, 0.7);
     padding: 30px;
 }
 
