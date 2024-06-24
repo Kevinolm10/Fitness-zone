@@ -15,7 +15,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #000000;
     min-height: 100vh;
     font-family: open-sans, sans-serif;
 }
@@ -70,6 +69,11 @@ main {
     color: #000000;
     border: 1px solid #000000;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
 }
 
 main h2 {
@@ -135,10 +139,11 @@ form {
 }
 
 .photo {
-    background-image: url("../images/Bodybuilder-Working-Out-His-Upper-Body-With-Cable-Crossover-Exercise.webp");
+    background-image: url("../images/bodybuilderwebp");
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    flex: 1 0 auto;
 }
 
 #join-form {
@@ -205,12 +210,8 @@ footer {
     }
 }
 
-
-
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {}
-
 
 @media screen and (min-width: 1200px) {
     #page-header {
