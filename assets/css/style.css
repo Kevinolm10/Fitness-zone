@@ -140,7 +140,6 @@ form {
 }
 
 .text {
-    color: #000000;
     width: 100%;
     margin: 3px 0 5px 0;
     border: 1px solid #000000;
@@ -158,15 +157,14 @@ form {
 
 #submit {
     margin-top: 1rem;
-    background-color: black;
-    color: white;
+    color: black;
+    padding: 1rem 1rem;
 }
 
 #submithover:hover {
-    text-decoration: none;
-    color: #000000;
-    display: relative;
-    background-color: aliceblue;
+    background-color: black;
+    background: #3a3a3a;
+    border-radius: 30%;
 }
 
 /* Footer */
