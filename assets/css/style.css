@@ -92,6 +92,7 @@ section {
 
 .home-background {
     background-image: url("../images/pngtree-an-empty-gym-with-some-machines-picture-image_3105884.jpg");
+    background-color: orange;
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -122,12 +123,12 @@ section {
 
 #videossection {
     background-image: url("../images/4kcarbon.jpg");
+    background-color: orange;
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    justify-content: center;
-    text-align: center;
 }
+
 
 .videos {
     background-color: rgb(225, 134, 15, 0.9);
@@ -141,7 +142,7 @@ section {
 
 #iframe {
     display: flex;
-    bottom: 50%;
+    width: 100%;
 
 }
 
@@ -155,6 +156,7 @@ form {
 
 .photo {
     background-image: url("../images/bodybuilderwebp");
+    background-color: orange;
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
