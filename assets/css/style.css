@@ -56,8 +56,6 @@ nav li.active {
     background-color: white;
 }
 
-.active {}
-
 /* Main */
 main {
     width: 100%;
@@ -109,7 +107,7 @@ section {
     border-radius: 50%;
 }
 
-/* Responsive styling for NAV */
+/* Responsive styling for hyperlinks */
 .hyperlink:hover {
     text-decoration: none;
     display: relative;
