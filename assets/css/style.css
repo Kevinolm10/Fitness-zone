@@ -22,6 +22,7 @@ body {
 /* Header */
 header {
     display: flex;
+    width: 100%;
     flex-direction: row;
     align-items: center;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -230,6 +231,10 @@ footer {
         width: 100%;
     }
 
+    header a {
+        margin-left: 15px;
+    }
+
     nav {
         display: block;
         position: relative;
@@ -237,11 +242,14 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
-
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+    header a {
+        margin-left: 15px;
+    }
+}
 
 @media screen and (min-width: 1200px) {
     header {
