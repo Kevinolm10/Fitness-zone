@@ -19,8 +19,6 @@ body {
     font-family: open-sans, sans-serif;
 }
 
-
-
 /* Header */
 header {
     display: flex;
@@ -30,6 +28,7 @@ header {
     z-index: 99;
     justify-content: space-between;
     letter-spacing: 5px;
+    background-color: rgb(225, 134, 15);
 }
 
 header a {
@@ -41,6 +40,7 @@ header a {
 #nav {
     letter-spacing: 2px;
     list-style-type: none;
+    color: #000000;
     margin: 10px;
     padding: 1rem;
 
@@ -50,6 +50,13 @@ nav li {
     display: inline-block;
     margin-right: 10px;
 }
+
+nav li:hover,
+nav li.active {
+    background-color: white;
+}
+
+.active {}
 
 /* Main */
 main {
@@ -107,7 +114,7 @@ section {
     text-decoration: none;
     display: relative;
     border-radius: 3px solid #000000;
-    background-color: white;
+    color: white;
     font-size: large;
 }
 
@@ -130,9 +137,10 @@ section {
     margin-left: 2rem;
 }
 
-#iframe {
+main #iframe {
     display: flex;
     width: 100%;
+
 
 }
 
