@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +42,6 @@ header a {
     color: #000000;
     margin: 10px;
     padding: 1rem;
-
 }
 
 nav li {
@@ -86,6 +83,7 @@ section {
     text-decoration: none;
 }
 
+/* Background for homepage */
 .home-background {
     background-image: url("../images/pngtree-an-empty-gym-with-some-machines-picture-image_3105884.jpg");
     background-color: orange;
@@ -93,7 +91,6 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 /* Styling for coach image on home page */
 .coach {
@@ -111,12 +108,12 @@ section {
 /* Responsive styling for hyperlinks */
 .hyperlink:hover {
     text-decoration: none;
-    display: relative;
-    border-radius: 3px solid #000000;
+    border: 3px solid #000000;
     color: white;
     font-size: large;
 }
 
+/* Styling for videos section */
 #videossection {
     background-image: url("../images/4kcarbon.jpg");
     background-color: orange;
@@ -124,7 +121,6 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .videos {
     background-color: rgb(225, 134, 15, 0.9);
@@ -139,8 +135,6 @@ section {
 main #iframe {
     display: flex;
     width: 100%;
-
-
 }
 
 /* Style for the sign up form */
@@ -219,7 +213,6 @@ footer {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {}
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
