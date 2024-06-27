@@ -35,6 +35,10 @@ header a {
     color: inherit;
 }
 
+#page-header {
+    padding-left: 1rem;
+}
+
 /* Navbar */
 #nav {
     letter-spacing: 2px;
@@ -49,8 +53,8 @@ nav li {
     margin-right: 10px;
 }
 
-nav li:hover,
-nav li.active {
+nav li a:hover,
+nav li .active {
     background-color: white;
 }
 
@@ -132,7 +136,7 @@ section {
     margin-left: 2rem;
 }
 
-main #iframe {
+#iframe {
     display: flex;
     width: 100%;
 }
@@ -146,7 +150,7 @@ form {
 }
 
 .photo {
-    background-image: url("../images/bodybuilderwebp");
+    background-image: url("../images/bodybuilder.webp");
     background-color: orange;
     background-size: 100%;
     background-size: cover;
@@ -195,13 +199,18 @@ footer {
 }
 
 /* Styling for social media links */
-#social-media-links {
+#social-media-links li a {
+    color: black;
     text-align: center;
     display: flex;
     padding: 0 20px;
     justify-content: space-evenly;
     list-style-type: none;
     text-decoration: none;
+}
+
+#social-media-links li a:hover {
+    color: green;
 }
 
 /* Styling to make link icons bigger */
