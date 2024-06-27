@@ -109,10 +109,15 @@ section {
     border-radius: 50%;
 }
 
+.hyperlink {
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+}
+
 /* Responsive styling for hyperlinks */
 .hyperlink:hover {
-    text-decoration: none;
-    border: 3px solid #000000;
+    background-color: #000000;
     color: white;
     font-size: large;
 }
@@ -135,6 +140,8 @@ section {
     margin-right: 2rem;
     margin-left: 2rem;
 }
+
+div iframe {}
 
 #iframe {
     display: flex;
@@ -240,6 +247,11 @@ footer {
         margin-left: 15px;
     }
 
+    div iframe {
+        height: 300px;
+        width: 500px;
+    }
+
     nav {
         display: block;
         position: relative;
@@ -254,6 +266,11 @@ footer {
     header a {
         margin-left: 15px;
     }
+
+    div iframe {
+        height: 300px;
+        width: 500px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -266,4 +283,6 @@ footer {
     header a {
         flex-direction: row;
     }
+
+
 }
