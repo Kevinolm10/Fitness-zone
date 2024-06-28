@@ -41,7 +41,7 @@ Our website can be accessed through this [link](https://kevinolm10.github.io/Fit
 
    - Nav is responsive:
    * Nav is in column formation when in mobile format and levels out to a row when in tablet, laptop or desktop format.
-
+   * Nav is changing background-color when hovered over.
 
 
 

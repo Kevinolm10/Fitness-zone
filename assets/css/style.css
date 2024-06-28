@@ -188,14 +188,14 @@ form {
 
 #submit {
     margin-top: 1rem;
-    color: black;
+    color: white;
     padding: 1rem 1rem;
+    background-color: black;
 }
 
-#submithover:hover {
-    background-color: black;
-    background: #3a3a3a;
-    border-radius: 30%;
+#submit:hover {
+    background-color: white;
+    color: black;
 }
 
 /* Footer */
