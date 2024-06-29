@@ -176,7 +176,7 @@ Refer to my [TESTING.md] file to see the testing done.
 
 ## Deployment
 
-Deployment to GitHub Pages
+Deployment to Github
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
@@ -184,7 +184,6 @@ Deployment to GitHub Pages
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here
 
-### Deployment on Github
 
 ---
 
