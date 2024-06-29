@@ -43,7 +43,7 @@ Our website can be accessed through this [link](https://kevinolm10.github.io/Fit
    * Nav is in column formation when in mobile format and levels out to a row when in tablet, laptop or desktop format.
    * Nav is changing background-color when hovered over.
 
-lägg till bild
+![Nav](documentation/nav.png)
 
 ---
 
@@ -53,7 +53,7 @@ lägg till bild
 * Introduces user to one of our coaches and his acomplishments.
 * Helps user know where they can find other useful information through hyperlinks.
 
-Lägg till bild
+![Home Page](documentation/chrome.png)
 
 ---
 
@@ -65,7 +65,7 @@ Lägg till bild
 
  * Hyperlinks leads to all useful information
 
- lägg till bild
+ ![Hero](documentation/chrome.png)
 
 ---
 
@@ -73,7 +73,7 @@ Lägg till bild
 
 - The footer is simple, with a background of orange and just social media links for the user to follow us on social media.
 
-lägg till bild
+![footer](documentation/footer.png)
 
 ---
 
@@ -87,7 +87,7 @@ lägg till bild
 
 - The videos page is responsive in a way that it responds to screen size and width to fit all videos in a good way.
 
-lägg till bild
+![videos](documentation/videos.png)
 
 
 ---
@@ -102,6 +102,7 @@ lägg till bild
 
 - The submit button is responsive in a way that when hovered over, it changes background color to black and text color to white.
 
+![Sign up](documentation/signup.png)
 
 ---
 
@@ -112,6 +113,8 @@ lägg till bild
 - The page contains a thank you message as well as information regarding what they signed up for.
 
 - A call to action message appears bellow telling the user to return to the videos page to learn more.
+
+![Response Page](documentation/response.png)
 
 ---
 
@@ -129,8 +132,6 @@ lägg till bild
 ## Design
 
 ### Colors Used
-
-Lägg till color pallet ![Color pallet] ()
 
 - Black color used as main color for text on the website to make it easy to read.
 
@@ -154,18 +155,16 @@ Lägg till main font
 
 #### Mobile
 
-- [Home Page. Mobile Screen](documentation/mobile_home_page.png)
-- [Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
-- [Contact Page. Mobile Screen](documentation/mobile_contact_form_page.png)
-- [Response Page. Mobile Screen](documentation/mobile_response_page.png)
+- ![Wireframe-mobile-home](documentation/wire-mobile-index.png)
+- ![Wireframe-mobile-videos](documentation/wire-mobile-videos.png)
+- ![Wireframe-mobile-signup](documentation/wire-mobile-signup.png)
 
 
 #### Desktop
 
-- [Home Page. Desktop Screen](documentation/desktop_home_page.png)
-- [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
-- [Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
-- [Response Page. Desktop Screen](documentation/desktop_response_page.png)
+![Wireframe-desktop-home](documentation/wire-index.png)
+![Wireframe-desktop-videos](documentation/wire-video.png)
+![Wireframe-desktop-signup](documentation/wire-signup.png)
 
 ---
 
@@ -176,6 +175,14 @@ Refer to my [TESTING.md] file to see the testing done.
 ---
 
 ## Deployment
+
+Deployment to GitHub Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Main Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here
 
 ### Deployment on Github
 
