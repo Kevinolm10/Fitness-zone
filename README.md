@@ -204,6 +204,8 @@ Refer to my [TESTING.md] file to see the testing done.
 - Inspiration for background hover effect in nav and footer came from love running project.
 - Inpiration for the code form came from code institute.
 - An inspiration for some css code came from [Kevin Powell] (https://www.youtube/user/kepow0b)
+- Used code institute fullstack developer course to go back and relearn ways to code.
+- https://www.w3schools.com/ was used to get help with coding
 
 + #### Media
 
@@ -229,6 +231,8 @@ https://www.wallpaperflare.com/fitness-gym-coach-training-routine-results-planni
 ---
 
 ## Acknowledgments
+
+- An honorable mention is my mentor Julila Konn who has helped me with ideas and inspiration for the website!
 
 ---
 
